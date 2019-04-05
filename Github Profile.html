@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)file:///C:/Users/hp/Desktop/New%20folder%20(3)/GitProfile.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Github Profile</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		
+		}
+		
+		#backPic1{
+			height: 100vh;
+			width: 100%;
+			background-image: linear-gradient(rgba(25,0,0,0.3),rgba(0,25,0,0.3)),url(table.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		#backPic2{
+			height: 300px;
+			width: 99%;
+			background-image: linear-gradient(rgba(25,0,0,0.3),rgba(0,25,0,0.3)),url(photoHeading.jpg);
+			border: 5px solid red;
+			border-bottom-style: dotted;
+			background-size: cover;
+			background-attachment: fixed;
+
+		}
+		#profilepic{
+			border-radius: 50%;
+			height: 270px;
+			width: 270px;
+			left:130px;
+			position: relative;
+			border: 2px solid white;
+		}
+		#myName{
+			font-family: century gothic;
+			font-size: 40px;
+			color: white;
+			text-align: center;
+		}
+		#picName{
+			
+			width: 500px;
+			height: auto;
+			position: relative;
+			left:23%;
+			top:130px;
+			align-items: center;
+		}
+		#pictureHeading{
+			color: yellow;
+			font-family: verdana;
+			font-size: 70px;
+			width:90%;
+			
+			text-align: center;
+			position: relative;
+			top: 115px;
+			left:55px;
+		}
+		#myPhotos{
+			width: 99%;
+			height: 150vh;
+			border: 5px solid red;
+			border-top: 0px;
+			border-bottom: 0px;
+			background-image: url('photoBack.jpg');
+			background-size: cover;
+			background-attachment: fixed: 
+		}
+		#timeDate{
+			position: fixed;
+			width:130px;
+			height: 40px;
+			left:89%;
+			top:10px;
+			border: 2px solid white;
+			border-radius: 10px;
+			background-color: black;
+			opacity: .7;
+			z-index: 4;
+
+		}
+		#timeDiv{
+			position: relative;
+			font-size: 30px;
+			left: 8px;
+			top:3px;
+			color: white;
+			opacity: 1;
+		}
+		#dateDiv{
+			font-size: 30px; 
+			position: relative;
+			left: 16px;
+			top:  100px;
+			color: white;
+		}
+		#socialLinks{
+			padding-left: 10px;
+			width: 160px;
+			height: 150px;
+			font-size: 18px;
+			border: 0px solid black;		
+			position: absolute;
+			left:85%;
+			top:340px;
+			color: white;
+			border-left: 10px solid white;
+		}
+		#footer{
+			height: 400px;
+			width:100%;
+			border-top: 20px solid white;
+			background-image:  linear-gradient(rgba(25,0,0,0.3),rgba(0,25,0,0.3)),url('addressback.jpg');
+		}
+		#contactINFO{
+			padding-left: 15px; 
+			position: relative;
+			width:70%;
+			left: 330px;
+			top:110px;
+			color: white;
+			font-family: century gothic;
+			font-size: 30px;
+			border-left: 6px solid white;
+			border-bottom: 6px solid white;
+		}
+		.social:hover{
+			height: 50px;
+			width: 50px;
+			transition: 0.3s ease;
+		}
+		#photocontainer{
+			position: absolute;
+			width: 99%;
+			height: 770px;
+			
+		}
+		.singlepictures{
+			position: relative;
+			margin-left: 40px;
+			margin-top:70px;
+			display: inline-block;
+			width: 200px;
+			height: 200px;
+			background-image: url('https://img.etimg.com/thumb/msid-67850573,width-643,imgsize-481257,resizemode-4/ronaldo2.jpg');
+			border: 2px solid white;
+			background-size: cover;
+			border-radius: 10px;
+		}
+		#formDiv{
+			width: 100%;
+			height: 800px;
+			background-image: url('formback.jpg');
+			background-size: cover;
+			background-attachment: fixed;
+			color: white;
+			font-size: 18px;
+
+		}
+		#innerform{
+			position: relative;
+			top: 120px;
+			left: 0px;
+		}
+		.field{
+			width:70%;
+			border: 2px solid purple;
+			background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('fieldback.jpg');
+			background-size: cover;
+			background-attachment: fixed;	
+		}
+
+		input[type="textbox"]{
+			display:inline-block;
+			width:300px;
+			height: 25px;
+			border:2px solid steelblue;
+
+		}
+		input[type="reset"]{
+			display:inline-block;
+			width:170px;
+			font-family: verdana;
+			height: 30px;
+			border:2px solid steelblue;
+			border-radius: 8px;
+			transition: .5s ease;
+
+		}
+		input[type="reset"]:hover{
+			display:inline-block;
+			font-family: Verdana;
+			width:169px;
+			height: 30px;
+			border:2px solid white;
+			border-radius: 8px;
+			background-color: black;
+			color: white;
+
+		}
+		input[type="submit"]{
+			display:inline-block;
+			font-family: Verdana;
+			width:170px;
+			height: 30px;
+			border:2px solid steelblue;
+			border-radius: 8px;
+			transition: .5s ease;
+
+		}
+		input[type="submit"]:hover{
+			display:inline-block;
+			font-family: Verdana;
+			width:169px;
+			height: 30px;
+			border:2px solid white;
+			border-radius: 8px;
+			background-color: black;
+			color:white;
+
+		}
+		textarea{
+			display:inline-block;
+			width:296px;
+			height: 60px;
+			border:2px solid steelblue;
+
+		}
+		select{
+			width: 40px;
+			border:2px solid steelblue;
+		}
+		select:hover{
+			width: 40px;
+			border:2px solid steelblue;
+			background-color: black;
+			color: white
+		}
+		#formHeading{
+			font-family: verdana;
+			font-size: 30px;
+			color: red;
+		}
+		#eduDiv{
+			width: 100%;
+			height: 1400px;
+			background-image: url('eduback.jpg');
+			background-size: cover;
+			background-attachment: fixed;
+			color: white;
+			font-size: 18px;
+			font-family: century gothic;
+		}
+		.edu{
+			position: relative;
+			display: inline-block;
+			width: 500px;
+			height: 330px;
+			border-left: 10px solid black;
+			border-bottom: 1px solid black;
+			margin-left: 40px;
+			margin-top: 20px;
+			left: 60px;
+		}
+		.skills{
+			position: relative;
+			display: inline-block;
+			width: 400px;
+			height: 300px;
+			border-left: 10px solid black;
+			border-bottom: 1px solid black;
+			margin-left: 10px;
+			padding-left: 50px;
+			top: 300px;
+			left: 60px;
+		}
+		.interests{
+			position: relative;
+			display: inline-block;
+			width: 400px;
+			height: 250px;
+			border-left: 10px solid black;
+			border-bottom: 1px solid black;
+			margin-left: 10px;
+			padding-left: 30px;
+			top: 350px;
+			left: 95px;
+		}
+		.sports{
+			position: relative;
+			display: inline-block;
+			width: 400px;
+			height: 250px;
+			border-left: 10px solid black;
+			border-bottom: 1px solid black;
+			margin-left: 64px;
+			padding-left: 50px;
+			top: 580px;
+			left: 110px;
+		}
+		#goal{
+			margin-top: 0px;
+			width: 1300px;
+			height: 400px;
+			background-image: url('goalback.jpg');
+			background-size: cover;
+			background-attachment: fixed;
+			color: white;
+			font-size: 18px;
+			font-family: century gothic;
+		}
+		#goalH{
+			position: relative;
+			top: 10px;
+			font-family: verdana;
+			font-size: 40px;
+			color: orange;
+			background-attachment: fixed;
+		}
+		#goalH2{
+			position: relative;
+			top: 10px;
+			font-family: verdana;
+			font-size: 70px;
+			color: orange;
+			background-attachment: fixed;
+		}
+	</style>
+	<script type="text/javascript">
+	var dateObj= new Date();
+	var year = dateObj.getFullYear();
+	var date = dateObj.getDate();
+	var day = dateObj.getDay();
+	var m = dateObj.getMonth();
+	var mArray = new Array("January","Feburary","March","April","May","June","July","August","September","October","November","December");
+	var weekDay= new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+	let finalDate=weekDay[day]+", "+date+" "+mArray[m]+" "+year;
+	setInterval(displayClock,11);
+	document.getElementById("dateDiv").innerHTML=finalDate;
+	
+	function displayClock(){
+		let hrs = dateObj.getHours();
+		let mins = dateObj.getMinutes();
+		let secs = dateObj.getSeconds();
+		let a="am";
+		if(hrs >= 12){a="pm"}
+		if(hrs>12){ hrs= hrs-12;}
+		if(hrs==0){ hrs=12;}
+		if(mins<10){ mins="0"+mins;}
+		document.getElementById("timeDiv").innerHTML=hrs+":"+mins+" "+a;
+		}
+</script>
+</head>
+<body>
+	<div id="timeDate">
+		<div id="timeDiv">2:52 am</div>
+		<div id="dateDiv"></div>
+	</div>
+	<div id="backPic1">
+		<div id="picName">
+			<img id="profilepic" src="file:///C:/Users/hp/Desktop/New%20folder%20(3)/profilepic.jpg">
+			<h1 id="myName">Muhammad Abdullah</h1>
+		</div>
+	</div>
+	<div id="socialLinks">
+	
+	
+			<a href="http://www.facebook.com/" style="text-decoration: none;"><img src="./Github Profile_files/square-facebook-128.png" class="social" width="30" height="30" alt="fb icon here">  </a><br>  <a href="https://www.facebook.com/" style="text-decoration: none; font-family:Century Gothic;color: white">My Facebook </a>
+			<br><br>
+<a href="http://www.linkedin.com/" style="text-decoration: none;"><img src="./Github Profile_files/square-linkedin-128.png" class="social" width="30" height="30" alt="Linked In icon image">  </a> <br> <a href="https://www.linkedin.com/" style="text-decoration: none;color: white; font-family: Century Gothic">My Linked In </a>
+</div>
+
+	
+	<div id="eduDiv">
+		<div class="edu">
+			<h1 class="esh1" align="center">Education</h1>
+			<ul>
+				<b><u><li style="font-size: 20px; color: orange">F.sc Pre Engineering:</li></u></b>
+				<ul>
+					<li>Institution-ABICS</li>
+					<li>Year of Passing-2017</li>
+					<li>Passing %--86%</li>
+				</ul>
+				<br>
+				<b><u><li style="font-size: 20px; color: orange">Matric:</li></u></b>
+				<ul>
+					<li>Institution-FAZMIC</li>
+					<li>Year of Passing-2015</li>
+					<li>Passing %--89%</li>
+				</ul>
+			</ul>
+			
+		</div>
+		<div class="skills">
+			<h1 class="esh1" align="center">Skills</h1>
+			<ul style="font-size: 22px">
+				<li>C</li>
+				<li>Java</li>
+				<li>C++</li>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>JQuery</li>
+			</ul>
+		</div>
+		<div class="interests">
+			<h1 align="center">Interests</h1>
+			<ul style="font-size: 22px">
+				<li>Politics</li>
+				<li>International Relations</li>
+				<li>Reading Magazines</li>
+				<li>Plantation</li>
+				<li>Tourism</li>
+			</ul>
+		</div>
+		<div class="sports">
+			<h1 align="center">Sports</h1>
+			<ul style="font-size: 22px">
+				<li>Football</li>
+				<li>Horse Ridding</li>
+				<li>Badminton</li>
+				<li>Cricket</li>
+				<li>PUBG</li>
+			</ul>
+		</div>
+	</div>
+
+<div id="backPic2"><div id="pictureHeading">My Awesome Photo Library</div></div>
+<div id="myPhotos">
+	<div id="photocontainer">
+		<center>
+			<div class="singlepictures"></div>
+			<div class="singlepictures"></div>
+			<div class="singlepictures"></div>
+			<div class="singlepictures"></div>
+		</center>
+		<br>
+		<center>
+			<div class="singlepictures"></div>
+			<div class="singlepictures"></div>
+			<div class="singlepictures"></div>
+			<div class="singlepictures"></div>
+		</center>
+	</div>
+</div>
+
+<div id="goal">
+	<h1 id="goalH" align="center">Goal in Life</h1>
+	<h1 id="goalH2" align="center">"Free Kashmir, Free Palestine"</h1>
+</div>
+<div id="formDiv">
+	<div id="innerform">
+		<center><form>
+		<fieldset class="field">
+  			<legend><h2 id="formHeading">Feedback Form</h2></legend>
+  			<h3>Please fill out this form in order to help us improve our website</h3>
+  				<center><table border="0" style="font-family: Century Gothic">
+  					<tbody><tr><td><strong>Name:</strong></td><td><input type="textbox" size="35" placeholder="Your name here"></td></tr>
+					<tr><td><strong>Comments:</strong></td><td><textarea placeholder="Your Comments are helpful"></textarea></td>
+					</tr><tr><td><strong>E-mail:</strong></td><td><input type="textbox" size="35" placeholder="Your E-mail Addrres here"></td></tr>
+					<tr></tr>
+					<tr><td colspan="2" align="center"><strong>Things you liked</strong></td></tr>
+					<tr><td colspan="2" align="center" style="border-bottom: 2px solid steelblue;">
+						site design <input type="checkbox" name="design" value="site design">
+						Links	<input type="checkbox" name="design" value="Links">
+						Ease of use<input type="checkbox" name="design" value="Ease of Use">
+						Images<input type="checkbox" name="design" value="Images">
+						Source Code<input type="checkbox" name="design" value="Source Code"></td>
+					</tr>
+					<tr></tr><tr></tr><tr></tr>
+					<tr><td colspan="2" align="center"><strong>How did you get to our site?</strong></td></tr>
+					<tr><td colspan="2" align="center" style="border-bottom: 2px solid steelblue;">
+						Search Engine  <input type="radio" name="design" value="site design">
+						Links from another site	<input type="radio" name="design" value="Links">
+						Dietel.com website<input type="radio" name="design" value="Ease of Use">
+						Reference in a book<input type="radio" name="design" value="Images">
+						Other<input type="radio" name="design" value="Source Code">
+					</td></tr>
+					<tr></tr><tr></tr><tr></tr>
+					<tr><td colspan="2" align="center"><strong>PLease rate our site (1-10)</strong></td></tr>
+					<tr><td colspan="2" align="center" style="border-bottom-width: 20%;border-bottom: 2px solid steelblue; ">
+						<select>
+  						  <option value="1">1</option>
+						  <option value="2">2</option>
+						  <option value="3">3</option>
+						  <option value="4">4</option>
+						  <option value="5">5</option>
+						  <option value="6">6</option>
+						  <option value="7">7</option>
+						  <option value="8" selected="">8</option>
+						  <option value="9">9</option>
+						  <option value="10">10</option>
+						</select>
+						
+					</td></tr>
+				</tbody></table>
+				<br><br>
+					<input type="submit" value="Submitt your entries">
+					<input type="reset" value="Clear your entries ">
+			</center>
+ 		</fieldset>
+	</form>
+	
+</center>
+	</div>
+</div>
+<div id="footer">
+	<div id="contactINFO">
+		<img src="./Github Profile_files/settings-phone-128.png" height="40px" width="auto"><big><big>&nbsp;0342-8079863</big></big><br>
+		<img src="./Github Profile_files/mail-24-128.png" height="40px" width="auto"><big>&nbsp;abdullahpakistan54321@gmail.com</big><br>
+		<img src="./Github Profile_files/Location-128.png" height="40px" width="auto"><big>&nbsp;Room# 407, Attar-1, NUST H-12, Islamabad</big><p></p>
+	</div>
+</div>
+
+</body></html>
