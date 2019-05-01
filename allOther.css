@@ -89,16 +89,17 @@
 			background-color: #a4f442;
 		}
 		#plugin1{
-			position: relative;
+			position: absolute;
 			left: 15%;
 			top: 10px;
+			background-color: yellow;
 			height: 450px;
 			width: 450px;
 			border: 2px solid black;
 		}
 		#plugin2{
-			position: relative;
-			left: 20%;
+			position: absolute;
+			left: 55%;
 			top: 10px;
 			height: 450px;
 			width: 450px;
