@@ -1,0 +1,94 @@
+	#formDiv{
+			width: 100%;
+			height: 800px;
+			background-image: url('images/formback.jpg');
+			background-size: cover;
+			background-attachment: fixed;
+			color: white;
+			font-size: 18px;
+
+		}
+		#innerform{
+			position: relative;
+			top: 120px;
+			left: 0px;
+		}
+		.field{
+			width:70%;
+			border: 2px solid purple;
+			background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('images/fieldback.jpg');
+			background-size: cover;
+			background-attachment: fixed;	
+		}
+
+		input[type="textbox"]{
+			display:inline-block;
+			width:300px;
+			height: 25px;
+			border:2px solid steelblue;
+
+		}
+		input[type="reset"]{
+			display:inline-block;
+			width:170px;
+			font-family: verdana;
+			height: 30px;
+			border:2px solid steelblue;
+			border-radius: 8px;
+			transition: .5s ease;
+
+		}
+		input[type="reset"]:hover{
+			display:inline-block;
+			font-family: Verdana;
+			width:169px;
+			height: 30px;
+			border:2px solid white;
+			border-radius: 8px;
+			background-color: black;
+			color: white;
+
+		}
+		input[type="submit"]{
+			display:inline-block;
+			font-family: Verdana;
+			width:170px;
+			height: 30px;
+			border:2px solid steelblue;
+			border-radius: 8px;
+			transition: .5s ease;
+
+		}
+		input[type="submit"]:hover{
+			display:inline-block;
+			font-family: Verdana;
+			width:169px;
+			height: 30px;
+			border:2px solid white;
+			border-radius: 8px;
+			background-color: black;
+			color:white;
+
+		}
+		textarea{
+			display:inline-block;
+			width:296px;
+			height: 60px;
+			border:2px solid steelblue;
+
+		}
+		select{
+			width: 40px;
+			border:2px solid steelblue;
+		}
+		select:hover{
+			width: 40px;
+			border:2px solid steelblue;
+			background-color: black;
+			color: white
+		}
+		#formHeading{
+			font-family: verdana;
+			font-size: 30px;
+			color: red;
+		}
