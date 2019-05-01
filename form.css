@@ -1,7 +1,7 @@
 	#formDiv{
 			width: 100%;
 			height: 800px;
-			background-image: url('images/formback.jpg');
+			background-image: url('formback.jpg');
 			background-size: cover;
 			background-attachment: fixed;
 			color: white;
@@ -16,7 +16,7 @@
 		.field{
 			width:70%;
 			border: 2px solid purple;
-			background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('images/fieldback.jpg');
+			background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('fieldback.jpg');
 			background-size: cover;
 			background-attachment: fixed;	
 		}
