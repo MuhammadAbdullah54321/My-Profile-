@@ -107,17 +107,57 @@
 			border: 3px solid black;
 			border-radius: 15px;
 		}
+		#youtubeContainer{
+			position: relative;
+			width: 100%;
+			height: 750px;
+			background: linear-gradient(#1a285a, #968cce);
+		}
+		#vidTitle{
+			position: relative;
+			text-align: center;
+			top: 1%;
+			color: white;
+			text-decoration: underline;
+			font-size: 30px;
+			font-family: verdana;
+		}
+		#videoFrame1{
+			position: relative;
+			left: 5%;
+			top: 5%;
+			border: 6px solid white;
+		}
+		#videoFrame2{
+			position: relative;
+			left: 7%;
+			top: 5%;
+			border: 6px solid white;
+		}
+		#videoFrame3{
+			position: relative;
+			left: 5%;
+			top: 15px;
+			border: 6px solid white;
+		}
+		#videoFrame4{
+			position: relative;
+			left: 7%;
+			top: 15px;
+			border: 6px solid white;
+		}
 		#socialLinks{
+			position: relative;
 			margin-left: 5px;
 			padding: 10px;
 			padding-right: 10px;
 			width: 125px;
-			height: 205px;
+			height: 0px;
 			font-size: 18px;
 			z-index: 4;
 			background-color: #e3bcf2;
 			border: 0px solid black;		
-			position: absolute;
+			
 			left:85%;
 			top:340px;
 			color: white;
