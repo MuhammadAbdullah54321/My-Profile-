@@ -155,14 +155,10 @@
 			height: 0px;
 			font-size: 18px;
 			z-index: 4;
-			background-color: #e3bcf2;
 			border: 0px solid black;		
-			
 			left:85%;
 			top:340px;
 			color: white;
-			border-left: 10px solid white;
-			border-radius: 5px;	
 		}
 		#footer{
 			height: 400px;
