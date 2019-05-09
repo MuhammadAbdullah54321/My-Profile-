@@ -241,7 +241,7 @@
 		}
 		#goal{
 			margin-top: 0px;
-			width: 1300px;
+			width: 100%;
 			height: 400px;
 			background-image: url('goalback.jpg');
 			background-size: cover;
